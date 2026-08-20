@@ -1,0 +1,6 @@
+module logicalrightshift(
+  input [7:0]a,
+  output [7:0]b
+);
+  assign b= a >> 1;
+endmodule
